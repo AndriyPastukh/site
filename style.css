@@ -1,0 +1,105 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: #44eb70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.wrap1{
+width: 400px;
+height: 525px;
+background-color:
+#41fac2
+;
+
+position: relative;
+
+}
+.wrap1{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+
+}
+
+
+.password-copy{
+margin: 10px;
+width: 300px;
+outline: none;
+height: 30px;
+font-size: 20px;
+transition: 1s;
+}
+
+.How-many-sign{
+height: 30px;
+
+width: 40px;
+outline: none;
+}
+
+
+.generate{
+width: 200px;
+height: 50px;
+outline: none;
+background-color: #7ffc58;
+border: none;
+font-size: 20px;
+transition: 0.3s;
+cursor: pointer;
+margin:100px;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 800;
+}
+.generate::active{
+    width: 220px;
+    color: wheat;
+ 
+    }
+.generate:hover{
+    width: 320px;
+    
+     
+}
+
+
+.checkbox_input{
+width: 100;
+transition: 1s;
+}            
+
+.checkbox_input:checked{
+    background-color:black ;
+    }   
+
+
+.copy-pass{
+position: absolute;
+top:15px;
+
+}
+
+#copy{
+border: none;
+background-color: none;
+
+
+}
